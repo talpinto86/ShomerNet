@@ -113,3 +113,32 @@ footer {
     padding: 15px;
     margin-top: 50px;
 }
+/* ===== Guides Page Styles ===== */
+/* הדגשת לשונית פעילה */
+.nav-links .active {
+    color: #4f8cff;
+    font-weight: bold;
+}
+
+/* סטייל מיוחד לכרטיסי המדריכים */
+.guide-card {
+    text-align: right;
+    min-height: 260px;
+}
+
+.guide-card h3 {
+    margin-bottom: 10px;
+}
+
+.guide-card p {
+    margin-bottom: 18px;
+    color: #d0d7e2;
+    line-height: 1.6;
+}
+
+/* כפתור בקרוב */
+.btn-primary.disabled {
+    background-color: #6a6a6a;
+    cursor: not-allowed;
+}
+
