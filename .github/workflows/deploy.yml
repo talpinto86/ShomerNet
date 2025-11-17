@@ -24,4 +24,5 @@ jobs:
 
     - name: Upload website to Cloud Storage
       run: |
-        gsutil -m cp -r . gs://shomernet-site
+        gsutil -m rsync -r -d public/ gs://shomernet-site
+
